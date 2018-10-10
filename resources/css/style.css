@@ -1,0 +1,27 @@
+/*GENERAL*/
+
+/*HEADER/LOGO*/
+
+/*MAIN BANNER*/
+
+
+p{
+  background-image: url(../resources/moto.jpeg);
+  background-repeat: no-repeat;
+  background-color: pink;
+  background-size: cover;
+}
+
+
+/*NAVIGATION*/
+
+a{
+  color: pink;
+}
+
+
+/*PRODUCT GRID*/
+
+/*LOCATION/HOURS*/
+
+/*FOOTER*/
