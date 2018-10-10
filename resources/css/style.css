@@ -1,14 +1,36 @@
 /*GENERAL*/
-
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+  width: 960px;
+}
 /*HEADER/LOGO*/
+
+
+.containerheader{
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+
+}
+.headerimg{
+    height: 1.5rem;
+}
 
 /*MAIN BANNER*/
 
 
-p{
-  background-image: url(../resources/moto.jpeg);
+.containerbanner{
+  display: inline-flex;
+  padding-top: 1.5rem;
+  height: 25rem;
+  background-image: url(resources/moto.jpeg);
   background-repeat: no-repeat;
   background-color: pink;
+  background-position: center;
   background-size: cover;
 }
 
@@ -16,12 +38,34 @@ p{
 /*NAVIGATION*/
 
 a{
-  color: pink;
+  color: white;
 }
 
+.containernavigation{
+  display: block;
+  background-color: firebrick;
+  width: 100%;
+  padding: 0.75rem 0;
+}
 
 /*PRODUCT GRID*/
 
+.containerproduct{
+
+}
+
 /*LOCATION/HOURS*/
 
+.containerlocation{
+  display: inline-flex;
+}
+
 /*FOOTER*/
+
+footer{
+  height: 5rem;
+  background-color: black;
+  color: white;
+  text-align: left;
+
+}
