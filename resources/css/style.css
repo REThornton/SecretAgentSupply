@@ -2,7 +2,7 @@
 html{
   font-size: 18px;
   font-family: Helvetica;
-  width: 960px;
+  width: ;
 }
 /*HEADER/LOGO*/
 
@@ -10,7 +10,7 @@ html{
 .containerheader{
   display: inline-flex;
   align-items: center;
-  width: 100%;
+  width: 960px;
   font-size: 1rem;
   background-color: black;
   color: white;
@@ -18,20 +18,40 @@ html{
 }
 .headerimg{
     height: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
 }
 
 /*MAIN BANNER*/
 
 
 .containerbanner{
-  display: inline-flex;
+  display: flex;
   padding-top: 1.5rem;
   height: 25rem;
+  width: 1200px;
+  box-sizing: border-box;
+
+
+}
+
+.motorcycle{
   background-image: url(resources/moto.jpeg);
   background-repeat: no-repeat;
-  background-color: pink;
   background-position: center;
-  background-size: cover;
+  background-color: pink;
+  height: 25rem;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+#h3h1{
+  background-color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  width: 20rem;
 }
 
 
