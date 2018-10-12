@@ -8,14 +8,20 @@ html{
 
 
 .containerheader{
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  width: 960px;
+  width: 2000px;
   font-size: 1rem;
   background-color: black;
   color: white;
-
 }
+
+.containerheader2{
+  display: inline-flex;
+  width: 960px;
+  margin-left: 520px;
+}
+
 .headerimg{
     height: 1.5rem;
     padding-left: 0.5rem;
@@ -29,9 +35,8 @@ html{
 
 .containerbanner{
   display: flex;
-
   height: 25rem;
-  width: 1200px;
+  width: 2000px;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
@@ -42,7 +47,7 @@ html{
   background-position: center;
   background-color: pink;
   height: 25rem;
-  width: 100%;
+  width: 2000px;
   padding-top: 1.5rem;
   align-items: center;
   flex-direction: column;
@@ -55,16 +60,15 @@ html{
   width: 20rem;
   padding: 2rem 3rem;
   margin-top: 9rem;
-}
-
-h3{
-  font-size: 1rem;
+  margin-left: 520px;
 }
 
 h1{
   font-size: 2rem;
   padding-top: 0.25rem;
 }
+
+
 /*NAVIGATION*/
 
 a{
@@ -74,28 +78,92 @@ a{
 .containernavigation{
   display: block;
   background-color: firebrick;
-  width: 100%;
+  width: 2000px;
   padding: 0.75rem 0;
 }
 
+.containernavigationitems{
+  width: 960px;
+  margin-left: 520px;
+}
+
+
 /*PRODUCT GRID*/
 
-.containerproduct{
 
+.containerproduct{
+  display: flex;
+  width: 960px;
+  margin-left: 520px;
 }
+
+.pen{
+  display: inline-block;
+  border: 4px solid black;
+  margin-top: 3rem;
+  padding: 2rem;
+  width: 30%;
+  text-align: center;
+}
+
+.containercaptions{
+  display: flex;
+  width: 960px;
+  margin-left: 520px;
+}
+
+.captions{
+  display: inline-block;
+  border: 4px solid black;
+  padding: 0.5rem;
+  width: 30%;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
 
 /*LOCATION/HOURS*/
 
 .containerlocation{
-  display: inline-flex;
+  display: flex;
+  padding-left: 2rem;
 }
+
+.locationboxes{
+  display: inline-block;
+  width: 35%;
+  margin-left: 520px;
+}
+
+.containerlocation2{
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.locationinfo2{
+  display: inline-block;
+  width: 35%;
+  margin-bottom: 4rem;
+  margin-left: 520px;
+}
+
 
 /*FOOTER*/
 
-footer{
+.footercontainer{
+  display: flex;
   height: 5rem;
   background-color: black;
+  width: 2000px;
+}
+
+.footercontents{
+  width: 960px;
   color: white;
   text-align: left;
-
+  margin-left: 520px;
 }
