@@ -2,7 +2,11 @@
 html{
   font-size: 18px;
   font-family: Helvetica;
-  width: ;
+  max-width: 2000px;
+}
+
+body{
+  max-width: 2000px;
 }
 /*HEADER/LOGO*/
 
@@ -79,15 +83,18 @@ a{
 }
 
 .containernavigation{
-  display: block;
-  background-color: firebrick;
-  width: 2000px;
-  padding: 0.75rem 0;
+  display: flex;
+  width: 960px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 520px;
+  padding-right: 520px;
+  justify-content: space-between;
 }
 
-.containernavigationitems{
-  width: 960px;
-  margin-left: 520px;
+.navbackground{
+  background-color: firebrick;
+  width: 2000px;
 }
 
 
@@ -136,17 +143,21 @@ a{
 
 .containerlocation{
   display: flex;
-  padding-left: 2rem;
+  width: 960px;
 }
 
 .locationboxes{
   display: inline-block;
   width: 35%;
   margin-left: 520px;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
 }
 
 .containerlocation2{
   display: flex;
+  width: 960px;
   margin-bottom: 4rem;
 }
 
@@ -155,6 +166,7 @@ a{
   width: 35%;
   margin-bottom: 4rem;
   margin-left: 520px;
+
 }
 
 
@@ -165,6 +177,7 @@ a{
   height: 5rem;
   background-color: black;
   width: 2000px;
+  align-items: center;
 }
 
 .footercontents{
