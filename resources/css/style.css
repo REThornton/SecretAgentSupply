@@ -141,34 +141,25 @@ a{
 
 /*LOCATION/HOURS*/
 
-.containerlocation{
+.locationboxes{
   display: flex;
   width: 960px;
+  margin-left: 520px;
+  margin-bottom: 4rem;
+  justify-content: space-between;
 }
 
-.locationboxes{
-  display: inline-block;
+.containerlocation{
   width: 35%;
-  margin-left: 520px;
+}
+
+.containerlocationinfo{
   background-color: black;
   color: white;
   padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
-
-.containerlocation2{
-  display: flex;
-  width: 960px;
-  margin-bottom: 4rem;
-}
-
-.locationinfo2{
-  display: inline-block;
-  width: 35%;
-  margin-bottom: 4rem;
-  margin-left: 520px;
-
-}
-
 
 /*FOOTER*/
 
