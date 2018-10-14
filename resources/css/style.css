@@ -28,7 +28,6 @@ html{
     height: 1.5rem;
     padding-left: 0.5rem;
     padding-right: 1rem;
-
 }
 
 .headercap{
@@ -45,20 +44,16 @@ html{
   display: flex;
   height: 25rem;
   width: 2000px;
-  box-sizing: border-box;
   flex-wrap: wrap;
 }
 
 .motorcycle{
-  background-image: url(resources/moto.jpeg);
+  background-image: url(../moto.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: pink;
+  background-size: cover;
   height: 25rem;
   width: 2000px;
-  padding-top: 1.5rem;
-  align-items: center;
-  flex-direction: column;
 }
 
 #h3h1{
